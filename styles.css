@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images4.alphacoders.com/878/8788.png);
+    background-repeat: no-repeat;
+}
+
+.registro {
+    width: 320px;
+    height: 520px;
+    color: white;
+    top: 50%;
+    left: 18%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+#btn {
+    background: rgb(6, 241, 163);
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 60px;
+    color: rgb(16, 14, 165);
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+
+.registro input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.datos {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(231, 228, 7);
+    font-size: 16px;
+    margin: 0;
+    display: block;
+    font-weight: bold;
+    padding: 1px;
+}
+
+.halo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.registro h1 {
+    margin: 0 2px;
+    display: block;
+    font-weight: bold;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+/* Tabla Actualizar */
+
+.actualizar {
+    width: 320px;
+    height: 520px;
+    color: white;
+    top: 50%;
+    left: 49%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+#btnDos {
+    background: rgb(6, 241, 163);
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 80px;
+    color: rgb(16, 14, 165);
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 36%;
+    margin-top: 20px;
+}
+
+.actuDatos {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(19, 110, 38);
+    font-size: 16px;
+    margin: 0;
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+/* Ultima columna */
+
+.ultimo {
+    width: 320px;
+    height: 520px;
+    color: white;
+    top: 50%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+#btnTres {
+    background: rgb(6, 241, 163);
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 80px;
+    color: rgb(16, 14, 165);
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 36%;
+    margin-top: 20px;
+}
+
+.actuDatosDos {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(241, 33, 33);
+    font-size: 16px;
+    margin: 0;
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+}
